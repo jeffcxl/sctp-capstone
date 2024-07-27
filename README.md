@@ -114,6 +114,9 @@ git merge readme
 git push
 ```
 
+# CICD Pipeline
+
+
 # Resources & References
 
 ## Git Branch & Merge Documentation
