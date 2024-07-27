@@ -108,6 +108,12 @@ git branch
 git merge readme
 ```
 
+12. ```Git Push```: Push the merged content into the main 
+
+```sh
+git push
+```
+
 # Resources & References
 
 ## Git Branch & Merge Documentation
