@@ -96,6 +96,18 @@ git push -u origin readme
 git checkout main
 ```
 
+10. ```Git Branch```: Check that you are on the main branch
+
+```sh
+git branch
+```
+
+11. ```Git Merge <branch>```: Merge a specific branch content to the main branch
+
+```sh
+git merge readme
+```
+
 # Resources & References
 
 ## Git Branch & Merge Documentation
