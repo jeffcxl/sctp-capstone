@@ -42,6 +42,60 @@ Insert the application structure of the project. For example what does index.js 
 - The ReadMe branch is for testing out pulling and pushing changes to the branch by editing the readme
 - This is a safe way for the team to try pulling a new branch and merging it to the main branch without affecting the integral code of our project.
 
+**To test and try out this branch**
+1. ```Git Pull```
+2. ```Git Branch```: Identify which branch you are currently on
+
+```sh
+git branch
+```
+
+You should be on the main branch, it should show something like this:
+
+```console
+* main
+  readme
+```
+
+The * indicates the current branch you are on.
+
+3. ```Git Checkout <branch>```: Switch to the readme branch
+
+```sh
+git checkout readme
+```
+
+4. Git Branch: Identify which branch you are currently on
+
+```sh
+git branch
+```
+
+If you are on the readme branch, it should show something like this:
+
+```console
+  main
+* readme
+```
+
+5. Make changes to branch
+
+6. ```Git Add```
+
+7. ```Git Commit```
+
+8. ```Git Push Origin <branch>```
+
+```sh
+git push -u origin readme
+```
+
+9. ```Git Checkout <branch>```: Switch to the main branch
+
+```sh
+git checkout main
+```
+
 # Resources & References
 
 ## Git Branch & Merge Documentation
