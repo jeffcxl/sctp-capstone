@@ -43,8 +43,15 @@ Insert the application structure of the project. For example what does index.js 
 - This is a safe way for the team to try pulling a new branch and merging it to the main branch without affecting the integral code of our project.
 
 **To test and try out this branch**
-1. ```Git Pull```
-2. ```Git Branch```: Identify which branch you are currently on
+1. Git Fetch: ```git fetch --all```
+2. List all Remote Branches: ```git branch -r```
+3. Create Local Tracking Branches: ```git checkout -b <local-branch-name> origin/<remote-branch-name>```
+For example, if you want to have the readme branch in your local: 
+
+```
+git checkout -b readme origin/readme
+```
+
 
 ```sh
 git branch
